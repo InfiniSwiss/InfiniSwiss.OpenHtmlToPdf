@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Authors>InfiniSwiss</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>InfiniSwiss</Copyright>
+    <PackageProjectUrl>https://github.com/InfiniSwiss/InfiniSwiss.OpenHtmlToPdf</PackageProjectUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/InfiniSwiss/InfiniSwiss.OpenHtmlToPdf</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Infiniswiss, OpenHtmlToPdf, wkhtlmtopdf</PackageTags>
+    <Description>A small library for converting HTML strings to Pdf using wkhtmltopdf adapted from OpenHtmlToPdf to use a newer version of wkhtmltopdf and to work with dotnet standard.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\wkhtmltopdf.zip" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\wkhtmltopdf.zip" />
+  </ItemGroup>
+
+</Project>
