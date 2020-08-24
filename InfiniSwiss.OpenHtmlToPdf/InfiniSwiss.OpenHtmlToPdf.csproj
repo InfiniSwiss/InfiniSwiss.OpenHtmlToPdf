@@ -12,6 +12,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Infiniswiss, OpenHtmlToPdf, wkhtlmtopdf</PackageTags>
     <Description>A small library for converting HTML strings to Pdf using wkhtmltopdf adapted from OpenHtmlToPdf to use a newer version of wkhtmltopdf and to work with dotnet standard.</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
