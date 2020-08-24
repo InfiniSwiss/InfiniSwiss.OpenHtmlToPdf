@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OpenHtmlToPdf\InfiniSwiss.OpenHtmlToPdf.csproj" />
+    <ProjectReference Include="..\InfiniSwiss.OpenHtmlToPdf\InfiniSwiss.OpenHtmlToPdf.csproj" />
   </ItemGroup>
 
 </Project>

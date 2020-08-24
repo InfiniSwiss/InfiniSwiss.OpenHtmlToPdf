@@ -50,7 +50,7 @@ namespace OpenHtmlToPdf.Assets
 
         private static Stream GetConverterExecutable()
         {
-            return Assembly.GetExecutingAssembly().GetManifestResourceStream("OpenHtmlToPdf.Assets.wkhtmltopdf.zip");
+            return Assembly.GetExecutingAssembly().GetManifestResourceStream("InfiniSwiss.OpenHtmlToPdf.Assets.wkhtmltopdf.zip");
         }
 
     }
