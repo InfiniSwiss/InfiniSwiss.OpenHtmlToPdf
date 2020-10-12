@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -6,6 +7,7 @@ namespace OpenHtmlToPdf
 {
     public sealed class Pdf
     {
+        [Obsolete("This library doesn't always produce 1:1 fidelity output as printing from the browser. Please use https://github.com/InfiniSwiss/InfiniSwiss.ChromiumHtmlToPdf instead for 1:1 fidelity printing.")]
         public static IPdfDocument From(string html)
         {
             return DocumentBuilder.Containing(html);
